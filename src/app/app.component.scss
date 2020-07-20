@@ -31,6 +31,16 @@
   display: grid;
   justify-content: center;
   align-items: center;
+
+  font-weight: 100;
+  letter-spacing: 2px;
+
+  &__text {
+    display: inline;
+    &--title {
+      font-weight: 300;
+    }
+  }
 }
 
 item1,
@@ -61,4 +71,27 @@ mat-radio-button {
   font-weight: 100;
   line-height: 1.5;
   letter-spacing: 1.4px;
+}
+
+.simulation {
+  &__heading {
+    &--main {
+      margin: 40px 0;
+      font-weight: 100;
+      font-size: 40px;
+      letter-spacing: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &--sub {
+      margin: 40px 0;
+      font-weight: 100;
+      font-size: 25px;
+      letter-spacing: 2px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
